@@ -1,0 +1,262 @@
+
+body,html{
+    padding: 0;
+    height: 100%;
+    background: rgb(59,39,73);
+    background: linear-gradient(90deg, rgba(59,39,73,1) 0%, rgba(47,29,80,1) 10%, rgba(10,0,102,1) 41%, rgba(27,0,41,1) 85%, rgba(58,32,111,1) 100%);
+    backdrop-filter: blur(20px);
+}
+
+header{
+    text-align: center;
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+}
+a{
+    margin-left: 1%;
+}
+h3{
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+section{
+    display: flex;
+}
+
+span{
+    white-space: nowrap;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#L1{
+    position: relative;
+    animation-fill-mode: forwards;
+    animation: l1 3s infinite;
+    animation-iteration-count: 1
+}
+#L2{
+    position: relative;
+    animation-fill-mode: forwards;
+    animation: l2 6s infinite;
+    animation-iteration-count: 1
+}
+#L3{
+    position: relative;
+    animation-fill-mode: forwards;
+    animation: l3 1s infinite;
+    animation-iteration-count: 1
+}
+#L4{
+    position: relative;
+    animation-fill-mode: forwards;
+    animation: l4 2s infinite;
+    animation-iteration-count: 1
+}
+#L5{
+    position: relative;
+    animation-fill-mode: forwards;
+    animation: l5 6s infinite;
+    animation-iteration-count: 1
+}
+#L6{
+    position: relative;
+    animation-fill-mode: forwards;
+    animation: l6 5s infinite;
+    animation-iteration-count: 1
+}
+#L7{
+    position: relative;
+    animation-fill-mode: forwards;
+    animation: l7 2s infinite;
+    animation-iteration-count: 1
+}
+#L8{
+    position: relative;
+    animation-fill-mode: forwards;
+    animation: l8 3s infinite;
+    animation-iteration-count: 1
+}
+#L9{
+    position: relative;
+    animation-fill-mode: forwards;
+    animation: l9 1s infinite;
+    animation-iteration-count: 1
+}
+#L10{
+    position: relative;
+    animation-fill-mode: forwards;
+    animation: l10 4s infinite;
+    animation-iteration-count: 1
+}
+
+@-webkit-keyframes l1 {
+    0% {
+        left: 0%;
+      }
+      100% {
+        left: 10%;
+      }
+
+  }
+@-webkit-keyframes l2 {
+    0% {
+        left: 0%;
+      }
+      50% {
+        left: 60%;
+      }
+    100% {
+        left: 0%;
+      }
+    
+  }
+@-webkit-keyframes l3 {
+    0% {
+        left: 0%;
+      }
+      50% {
+        left: 40%;
+      }
+      100%{
+        left: 0%
+      }
+  }
+@-webkit-keyframes l4 {
+    0% {
+        left: 0%;
+      }
+      50% {
+        left: 50%;
+      }
+      100%{
+        left: 0%
+      }
+  }
+@-webkit-keyframes l5 {
+    0% {
+        left: 0%;
+      }
+      50% {
+        left: 50%;
+      }
+      100%{
+        left: 0%
+      }
+  }
+@-webkit-keyframes l6 {
+    0% {
+        right: 0%;
+      }
+      50% {
+        right: 30%;
+      }
+      100%{
+        right: 0%
+      }
+  }
+  @-webkit-keyframes l7 {
+    0% {
+        right: 0%;
+      }
+      50% {
+        right: 60%;
+      }
+      100%{
+        right: 0%;
+      }
+  }
+@-webkit-keyframes l8 {
+    0% {
+        right: 0%;
+      }
+      50% {
+        right: 40%;
+      }
+      100%{
+        right: 0%
+      }
+  }
+@-webkit-keyframes l9 {
+    0% {
+        right: 0%;
+      }
+      50% {
+        right: 30%;
+      }
+      100%{
+        right: 0%
+      }
+  }
+@-webkit-keyframes l10 {
+    0% {
+        right: 0%;
+      }
+      50% {
+        right: 50%
+      }
+      100%{
+        right: 0%
+      }
+  }
+
+.searchOptionsConteiner{
+    margin: 2%;
+    padding: 1%;
+    width: 20%;
+    background-color: rgb(64, 54, 92);
+    border-radius: 6px;
+}
+.searchAlgorithmsVisualizer{
+    margin: 2%;
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+    padding: 1%;
+    width: 74%;
+    background-color: rgb(64, 54, 92);
+    border-radius: 6px;
+}
+.gitlogo{
+    margin-left: 1%;
+    filter: opacity(100%);
+    width:40px;
+    height:40px;
+    transition: 1s;
+}
+.siteTitle{
+    margin-top: 20%;
+    font-size: 600%;
+    margin: 0;
+    padding: 0;
+    transition: 1s;
+}
+.siteSubTitle{
+    font-size: 200%;
+    margin: 0;
+    padding: 0;
+}
+.searchOption{
+    display: flex;
+    max-width: 30%;
+    background-color: rgb(64, 54, 92);
+    font-family: 'JetBrains Mono', monospace;
+    color: white;
+    align-items: center;
+    cursor: pointer;
+}
+.arrow{
+    max-width: 0;
+    opacity: 0;
+}
+.searchOption:hover .arrow{
+    max-width: 100%;
+    opacity: 100%;
+}
+.gitlogo:hover {
+    transition: 1s;
+    transform-origin: center;
+    transform: rotate(720deg);
+}
